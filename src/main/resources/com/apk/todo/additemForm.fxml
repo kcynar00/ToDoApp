@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #0288d1;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.apk.todo.AddItemFormController">
+    <children>
+        <AnchorPane layoutY="100.0" prefHeight="299.0" prefWidth="700.0" style="-fx-background-color: #005b9f;">
+         <children>
+            <TextField fx:id="tasksTitle" alignment="TOP_CENTER" layoutX="140.0" layoutY="57.0" prefHeight="50.0" prefWidth="420.0" promptText="Zadanie">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </TextField>
+            <Button fx:id="addTasksButton" layoutX="291.0" layoutY="175.0" mnemonicParsing="false" text="Zapisz zadanie">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="showTasksButton" layoutX="295.0" layoutY="230.0" mnemonicParsing="false" text="Moje zadania">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+         </children></AnchorPane>
+        <Label layoutX="235.0" prefHeight="0.0" prefWidth="230.0" text="To Do App">
+            <font>
+                <Font name="Freestyle Script" size="79.0" />
+            </font>
+        </Label>
+      <Button fx:id="logoutAddItemForm" layoutX="608.0" layoutY="42.0" mnemonicParsing="false" text="Wyloguj się" />
+    </children>
+</AnchorPane>
